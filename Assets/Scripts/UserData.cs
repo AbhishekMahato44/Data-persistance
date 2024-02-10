@@ -7,6 +7,7 @@ public class UserData : MonoBehaviour
 {
     public static UserData Instance;
     public string PlayerName;
+    public string CurrentPlayerName;
     public int bestScore;
     private void Awake()
     {
